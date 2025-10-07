@@ -4,8 +4,8 @@
     align-items: end;
     justify-content: center;
     justify-self: center;
-    border: solid  #1d3140 2px;
-    width: 300px;
+    border: solid  var(--border-color) 2px;
+    width: var(--component);
     min-height: 60px;
     border-radius: 3vh;
     background-color: var(--component-background);
@@ -14,7 +14,7 @@
 .knapp {
     padding: 1vh 2vh;
     border-radius: 5vh;
-    background-color: #00ff00;
+    background-color: #FF7B00;
     margin: 5px;
     border: none;
     transition: transform 0.3s;

@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     justify-self: center;
-    border: solid  #1d3140 2px;
-    width: 300px;
+    border: solid  var(--border-color) 2px;
+    width: var(--component);
     min-height: auto;
     border-radius: 3vh;
     background-color: var(--component-background);
