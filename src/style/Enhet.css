@@ -4,15 +4,16 @@
     align-items: center;
     justify-content: space-between;
     justify-self: center;
-    border: solid #29465B 2px;
+    border: solid #1d3140 2px;
     width: 300px;
     min-height: 120px;
     border-radius: 3vh;
-    background-color: lightgrey;
+    background-color: var(--component-background);
 }
 
 h2 {
-    background-color: lightgrey;
+    background-color: var(--component-background);
+    color: var(--text-color);
 }
 
 .select-enhet {

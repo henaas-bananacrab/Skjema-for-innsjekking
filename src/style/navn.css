@@ -4,13 +4,13 @@
     align-items: center;
     justify-content: center;
     justify-self: center;
-    border: solid #29465B 2px;
+    border: solid  #1d3140 2px;
     width: 300px;
     min-height: 60px;
     border-radius: 3vh;
-    background-color: lightgray;
+    background-color: var(--component-background);
 }
 
 .name-text {
-    background-color: lightgray;
+    background-color: var(--component-background);
 }
