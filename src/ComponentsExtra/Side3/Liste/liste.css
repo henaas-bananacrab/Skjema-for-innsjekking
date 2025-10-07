@@ -1,0 +1,13 @@
+.checklist-container {
+  background-color: #f8f4e3;
+  border: 1px solid #d5c08d; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 400px; 
+  margin: 20px auto;
+  padding: 15px 30px; 
+  text-align: center;
+  font-size: 1.5em; 
+  font-weight: bold;
+  color: #333;
+}

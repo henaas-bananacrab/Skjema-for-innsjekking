@@ -1,0 +1,33 @@
+.henvedelser {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+}
+
+.henvedelser h1 {
+  color: #2d6cdf;
+  margin-bottom: 16px;
+}
+
+.henvedelser ul {
+  list-style: none;
+  padding: 0;
+}
+
+.henvedelser li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.henvedelser a {
+  color: #1a8a34;
+  text-decoration: none;
+}
+
+.henvedelser a:hover {
+  text-decoration: underline;
+}

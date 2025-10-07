@@ -1,0 +1,14 @@
+.image-container {
+  background-color: #f8f4e3;
+  border: 1px solid #d5c08d;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 15px;
+  
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+}

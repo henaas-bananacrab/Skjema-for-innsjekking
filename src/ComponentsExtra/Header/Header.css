@@ -1,0 +1,20 @@
+/* ====== Header ====== */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2vh 5vw;
+    background: #2a2a2a;
+    backdrop-filter: blur(3vh);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 12vh;
+    max-height: 5rem;
+    display: block;
+}

@@ -1,0 +1,16 @@
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    border: solid #29465B 2px;
+    width: 300px;
+    min-height: 60px;
+    border-radius: 3vh;
+    background-color: lightgray;
+}
+
+.name-text {
+    background-color: lightgray;
+}
