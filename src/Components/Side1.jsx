@@ -1,8 +1,8 @@
-import Kontakter from '../Components/Kontakt.jsx';
-import Knapp from '../Components/Knapp.jsx';
-import Enhet from '../Components/Enhet.jsx';
-import Problem from '../Components/Problem.jsx';
-import Bilde from '../Components/Bilde.jsx';
+import Kontakter from './Kontakt.jsx';
+import Knapp from './Knapp.jsx';
+import Enhet from './Enhet.jsx';
+import Problem from './Problem.jsx';
+import Bilde from './Bilde.jsx';
 const Home = () => {
   return (
     <>

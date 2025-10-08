@@ -2,10 +2,6 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Components/Navigation.jsx';
 import './App.css'
-import Knapp from './Components/Knapp';
-import Enhet from './Components/Enhet';
-import Navn from './Components/navn';
-import Liste from './Components/liste';
 import Home from './Components/Side1';
 import Side2 from './Components/Side2';
 import Side3 from './Components/Side3';
@@ -37,12 +33,7 @@ function App() {
         </main>
       </div>
     </Router>
-    <Enhet setSelectedText={setSelectedText}/>
-    <Knapp onAddRow={addRow}/>
-    <Navn/>
-    <Liste rows={rows} enhetText={enhetText}/>
     </>
   );
 }
-
 export default App

@@ -1,6 +1,6 @@
 import { useState } from "react"; 
-import NavneListe from '../Components/navn.jsx';
-import Liste from '../Components/liste.jsx';
+import NavneListe from './navn.jsx';
+import Liste from './liste.jsx';
 
 const Side3 = () => {
   const [innsjekkData, setInnsjekkData] = useState([
