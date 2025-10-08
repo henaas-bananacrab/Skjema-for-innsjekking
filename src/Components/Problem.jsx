@@ -1,4 +1,4 @@
-import './problem.css';
+import '../style/Problem.css';
 
 function Problem() {
   return (

@@ -1,4 +1,4 @@
-import './Informasjon.css'
+import '../Style/Informasjon.css'
 
 function Informasjon({ kontaktInfo, status }) {
 

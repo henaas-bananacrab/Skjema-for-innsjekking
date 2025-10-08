@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import axios from 'axios'; // For making HTTP requests
-import './bilde.css';
+//import axios from 'axios'; // For making HTTP requests
+import '../style/Bilde.css';
 
 function Bilde() {
   // State to store the selected file

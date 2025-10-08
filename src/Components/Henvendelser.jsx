@@ -1,4 +1,4 @@
-import './henvedelser.css';
+import '../Style/henvedelser.css';
 
 function Henvendelser() {  
   return (

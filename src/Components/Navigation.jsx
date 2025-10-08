@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Navigation.css';
+import '../style/Navigation.css';
 
 const Navigation = () => {
   const location = useLocation();

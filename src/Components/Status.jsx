@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Status.css';
+import '../Style/Status.css';
 
 function Status({ status: externalStatus, setStatus: externalSetStatus }) {
 
