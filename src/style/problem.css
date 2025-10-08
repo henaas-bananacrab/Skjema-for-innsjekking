@@ -1,16 +1,16 @@
 .container {
-  background-color: #f8f4e3; 
-  border: 1px solid #d5c08d; 
+  background-color: #ffffff; 
+  border: 1px solid var(--border-color); 
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   padding: 20px;
-  max-width: 450px; 
+  max-width: var(--component); 
   margin: 20px auto; 
 }
 
 .title-bar {
-  background-color: #e6e0c3;
-  border-bottom: 1px solid #d5c08d;
+  background-color: var(--component-background);
+  border-bottom: 1px solid var(--border-color);
   border-radius: 15px 15px 0 0; 
   text-align: center;
   font-weight: bold;

@@ -3,14 +3,14 @@ import Knapp from './Knapp.jsx';
 import Enhet from './Enhet.jsx';
 import Problem from './Problem.jsx';
 import Bilde from './Bilde.jsx';
-const Home = () => {
+const Home = ({addRow, setSelectedText}) => {
   return (
     <>
-    <Enhet />
+      <Enhet setSelectedText={setSelectedText} />
       <Kontakter />
       <Problem />
       <Bilde />
-      <Knapp/>
+      <Knapp onAddRow={addRow} />
     </>
   );
 };

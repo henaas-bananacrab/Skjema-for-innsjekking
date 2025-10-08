@@ -26,9 +26,9 @@ function App() {
         <Navigation />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home setSelectedText={setSelectedText} addRow={addRow} />} />
             <Route path="/side2" element={<Side2 />} />
-            <Route path="/side3" element={<Side3 />} />
+            <Route path="/side3" element={<Side3 rows={rows} enhetText={enhetText} />} />
           </Routes>
         </main>
       </div>
