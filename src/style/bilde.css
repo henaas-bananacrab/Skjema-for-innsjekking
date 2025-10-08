@@ -1,9 +1,9 @@
 .image-container {
-  background-color: #f8f4e3;
-  border: 1px solid #d5c08d;
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 450px;
+  max-width: var(--component);
   margin: 20px auto;
   padding: 15px;
   
