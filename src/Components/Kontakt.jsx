@@ -4,18 +4,7 @@ import '../style/Kontakt.css';
 const Kontakt = () => {
   return (
     <>
-      <div className="container">
-        <div className="title-bar">
-          Hva er ditt Problem
-        </div>
-        <div className="text-area">
-          <p>Tekst:</p>
-        </div>
-      </div>
 
-      <div className="image-container">
-        Bilde -{'>'} img
-      </div>
 
       <div className="contact-container">
         <div className="contact-header">
